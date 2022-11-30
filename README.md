@@ -46,3 +46,6 @@ employee must report to this department. Engineers from this department take car
 -	Employee can see the status of their problem by using complain id . Status means they can check who (engineer) is assigned to his problem.
 -	They can see all complain history raised by him/her.
 -	Employee can change his/her password.
+
+**HOME SCREEN**
+- ![HomeScreen](C:\Users\Vicky\Pictures\javaprojectDiagram.png)
