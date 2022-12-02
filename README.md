@@ -47,5 +47,5 @@ employee must report to this department. Engineers from this department take car
 -	They can see all complain history raised by him/her.
 -	Employee can change his/her password.
 
-**HOME SCREEN**
+ **FLOW CHART** 
 ![HomeScreen](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/javaprojectDiagram.png)
