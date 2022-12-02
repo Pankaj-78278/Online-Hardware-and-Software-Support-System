@@ -49,3 +49,4 @@ employee must report to this department. Engineers from this department take car
 
 **HOME SCREEN**
 https://github.com/[Pankaj-78278]/[accidental-pull-8164]/blob/[main]/javaprojectDiagram.png?raw=true
+![Optional Text](../accidental-pull-8164/ReadmePic/javaprojectDiagram.png)
