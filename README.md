@@ -48,4 +48,4 @@ employee must report to this department. Engineers from this department take car
 -	Employee can change his/her password.
 
 **HOME SCREEN**
-- ![HomeScreen](C:\Users\Vicky\Pictures\javaprojectDiagram.png)
+https://github.com/[Pankaj-78278]/[accidental-pull-8164]/blob/[main]/javaprojectDiagram.png?raw=true
