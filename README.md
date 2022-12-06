@@ -48,4 +48,33 @@ employee must report to this department. Engineers from this department take car
 -	Employee can change his/her password.
 
  **FLOW CHART** 
+ 
 ![HomeScreen](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/javaprojectDiagram.png)
+
+**HOME PAGE**
+
+![HomePage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/MainPage.png)
+
+**HOME PAGE**
+
+![HomePage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/MainPage2.png)
+
+**HOD EXCEPTION**
+
+![HomePage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/Exception.png)
+
+**HOD PAGE**
+
+![HomePage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/HOD.png)
+
+**HOD**
+
+![HomePage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/HOD2.png)
+
+**ENGINEER**
+
+![EngineerPage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/Engineer.png)
+
+**EMPOLYEE**
+
+![Empolyee](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/Empolyee.png)
