@@ -49,32 +49,34 @@ employee must report to this department. Engineers from this department take car
 
  **FLOW CHART** 
  
-![HomeScreen](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/javaprojectDiagram.png)
+![javaprojectDiagram](https://user-images.githubusercontent.com/99475082/205909697-8f1fa1d2-f1f2-4857-b408-e8959c305a6b.png)
 
 **HOME PAGE**
 
-![HomePage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/MainPage.png)
+![MainPage](https://user-images.githubusercontent.com/99475082/205909978-15cdae95-bd90-4f9d-b0bd-c6f2b248ac10.png)
 
 **HOME PAGE**
 
-![HomePage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/MainPage2.png)
+![MainPage2](https://user-images.githubusercontent.com/99475082/205910169-0c4037f4-72d9-48ae-a887-cc2a9048b5b4.png)
 
 **HOD EXCEPTION**
 
-![HomePage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/Exception.png)
+![Exception](https://user-images.githubusercontent.com/99475082/205910451-1ef3af36-6359-4392-aaa8-b624d44fced9.png)
 
 **HOD PAGE**
 
-![HomePage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/HOD.png)
+![HOD](https://user-images.githubusercontent.com/99475082/205910568-5f89e0ae-a647-4496-ba81-3df6e9c757a4.png)
 
-**HOD**
 
-![HomePage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/HOD2.png)
+**HOD PAGE**
 
-**ENGINEER**
+![HOD2](https://user-images.githubusercontent.com/99475082/205910742-ba2cdd52-06a2-4e21-b887-6a319aae6179.png)
 
-![EngineerPage](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/Engineer.png)
+**ENGINEER PAGE**
 
-**EMPOLYEE**
+![Engineer](https://user-images.githubusercontent.com/99475082/205910819-74f0d7dc-0384-426d-b732-fc7371af105b.png)
 
-![Empolyee](https://github.com/Pankaj-78278/accidental-pull-8164/blob/main/ReadmePic/Empolyee.png)
+**EMPOLYEE PAGE**
+
+![Empolyee](https://user-images.githubusercontent.com/99475082/205910937-be29693e-aa74-4518-b49c-f95e04ddf10d.png)
+
