@@ -1,3 +1,7 @@
+**PROJECT LOGO**
+![Logo](https://user-images.githubusercontent.com/99475082/206293732-4f32e653-551d-4d36-bc48-7a50b004e717.png)
+
+
 # Online Hardware And Software Support System
 ---
 
@@ -46,6 +50,7 @@ employee must report to this department. Engineers from this department take car
 -	Employee can see the status of their problem by using complain id . Status means they can check who (engineer) is assigned to his problem.
 -	They can see all complain history raised by him/her.
 -	Employee can change his/her password.
+
 
  **FLOW CHART** 
  
