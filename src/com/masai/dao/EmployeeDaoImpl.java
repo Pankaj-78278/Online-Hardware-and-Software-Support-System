@@ -14,7 +14,7 @@ import com.masai.utilities.DBUtil;
 
 
 public class EmployeeDaoImpl implements EmployeeDao {
-
+//	Register Employee by the name,email,password
 	@Override
 	public String registerEmployee(Employee employee) {
 		String message = "Registered Successfully";
@@ -39,6 +39,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
 	}
 
+//	Employee can login by the email,password
 	@Override
 	public String EmployeeLogin(String email, String password) throws ExceptionEmployee {
 		String message = "Invalid username or password";
@@ -54,19 +55,15 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			
 			if(rs.next()) {
 				message = "Login Successfull";
-			}
-			
-			
+			}	
 		}catch(SQLException e) {
 			
 			e.printStackTrace();
 		}
-		
-		
 		return message;
-
 	}
-
+	
+// Employee can update  password or email
 	@Override
 	public String ChangePassword(String email, String password) throws ExceptionEmployee {
 		String message = "Invalid password";
@@ -92,6 +89,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		return message;
 	}
 	
+//	Employee can register complain by his ID
 	@Override
 	public String registerComplain(Complain complain) {
 		String message = "Invalid complain";
@@ -113,11 +111,10 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			message = e.getMessage();
 			
 		}
-		
-		
 		return message;
 	}
 
+//	Employee can check all the complain list assigned by him/her
 	@Override
 	public List<Complain> ComplainList(int empId) throws ExceptionEmployee {
 		List <Complain> complainList = new ArrayList<>();

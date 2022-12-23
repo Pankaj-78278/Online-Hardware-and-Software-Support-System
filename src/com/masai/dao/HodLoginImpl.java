@@ -17,7 +17,7 @@ import com.masai.utilities.DBUtil;
 
 public class HodLoginImpl implements HodLogin  {
 
-	
+//	hod can register by his/her name,email,password
 	@Override
 	public String registerEngineer(Engineer engineer) throws ExceptionEngineer {
 		String result="Not Inserted";
@@ -45,6 +45,7 @@ public class HodLoginImpl implements HodLogin  {
 		return result;
 	}
 
+//	hod can signin by his/her username and password
 	@Override
 	public String SignInHod(String Username, String Password) throws ExceptionHOD {
 		String res ="Not inserted";
@@ -68,11 +69,10 @@ public class HodLoginImpl implements HodLogin  {
 			throw new ExceptionHOD(e.getMessage());
 			
 		}
-				
-		
 		return res;
 	}
 
+//	hod can login by his own credentials
 	@Override 
 	public HOD LoginInHOD (String username, String password) throws ExceptionHOD {
 		HOD hodtoeng= null;
@@ -100,13 +100,12 @@ public class HodLoginImpl implements HodLogin  {
 			// TODO: handle exception
 			e.printStackTrace();
 			throw new ExceptionHOD(e.getMessage());
-		}
-		
-		
-		
+		}		
 		return hodtoeng;
 	}
-
+	
+	
+//	hod can check list of all engineer 
 	@Override
 	public List<Engineer> AllEngineer() {
 		
@@ -126,8 +125,7 @@ public class HodLoginImpl implements HodLogin  {
 			
 				Engineer hodtoeng= new Engineer(id,name,email,password);				
 				
-				engineerDetail.add(hodtoeng); 
-		
+				engineerDetail.add(hodtoeng); 	
 			}
 		
 		} catch (SQLException e) {
@@ -137,12 +135,10 @@ public class HodLoginImpl implements HodLogin  {
 		return engineerDetail;
 	}
 
+//	hod can delete the engineer by his engineer id
 	@Override
 	public String deleteEngineer(int engid) throws ExceptionEngineer {
-
-//		public String deleteEngineer(int engid) throws Exception_Engineer {
-			
-			String delEng= "NOt Deleted";
+			String delEng= "Not Deleted";
 			
 			try(Connection conn= DBUtil.provideConnection()) {
 				PreparedStatement ps=conn.prepareStatement("delete from engineer where engid=?");
@@ -159,15 +155,14 @@ public class HodLoginImpl implements HodLogin  {
 				}
 				
 			} catch (Exception e) {
-				// TODO: handle exception
 				e.printStackTrace();
-//				throw new Exception_HOD(e.getMessage());
 			}
 
 		
 			return delEng;
 		}
 	
+//	hod can check all the list of the complain assigned by the employee
 	@Override
 	public List<Complain> getAllComplainList() throws ExceptionComplain {
 		
@@ -204,6 +199,8 @@ public class HodLoginImpl implements HodLogin  {
 		
 	}
 
+	
+//	hod can assigned task to engineer by the engineer Id
 	@Override
 	public String assignComplaintToEngineer(int Comid,int engid)  throws ExceptionEngineer,ExceptionComplain {
 	String message = "Not Assigned";

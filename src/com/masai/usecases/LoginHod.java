@@ -19,10 +19,6 @@ public class LoginHod {
 
 		System.out.println("Enter Your Password");
 		String password = sc.nextLine();
-		
-//		HOD hod =new HOD();
-//		hod.setHOD_username(email);
-//		hod.setHOD_password(password);
 
 		HodLogin dao= new HodLoginImpl();
 		

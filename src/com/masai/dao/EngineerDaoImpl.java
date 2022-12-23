@@ -14,7 +14,8 @@ import com.masai.model.Engineer;
 import com.masai.utilities.DBUtil;
 
 public class EngineerDaoImpl implements EngineerDao {
-
+	
+//	Engineer can register by his/her name,email,password
 	@Override
 	public String RegisterEngineer(Engineer engineer) {
 		String message = "Engineer Not Registered";
@@ -41,6 +42,7 @@ public class EngineerDaoImpl implements EngineerDao {
 		return message;
 	}
 
+//	Engineer can login by his credential
 	@Override
 	public String Engineerlogin(String email, String Password) throws ExceptionEngineer {
 		String result= "Invalid Username or Password";
@@ -56,18 +58,16 @@ public class EngineerDaoImpl implements EngineerDao {
 			
 			if(rs.next()) {
 				result = "Login Successfull";
-			}	
-			
-			
+			}		
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
 			throw new ExceptionEngineer(e.getMessage());
 		}
-	
 		return result;
 	}
 
+//	Engineer can update his own password or email
 	@Override
 	public String ChangePassword(String email, String password) throws ExceptionEngineer {
 		String message = "Invalid password";
@@ -93,6 +93,7 @@ public class EngineerDaoImpl implements EngineerDao {
 		return message;
 	}
 
+//	Engineer can check his all complain list assigned by the employee
 	@Override
 	public List<Complain> ComplainList(int engid) throws ExceptionEngineer {
 		List<Complain> result= new ArrayList<Complain>();
@@ -125,6 +126,7 @@ public class EngineerDaoImpl implements EngineerDao {
 
 	}
 
+//	Engineer can update the task assigned by the employee
 	@Override
 	public String UpdateAssignedComplaintStatus(int comid, String status) throws ExceptionComplain {
 		String message = "Invalid Complain ID";

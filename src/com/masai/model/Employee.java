@@ -6,6 +6,8 @@ public class Employee {
 	private String empname;
 	private String empemail;
 	private String emppassword;
+	
+// paramaterized constructor
 	public Employee(int empid, String empname, String empemail, String emppassword) {
 		super();
 		this.empid = empid;
@@ -13,14 +15,20 @@ public class Employee {
 		this.empemail = empemail;
 		this.emppassword = emppassword;
 	}
+	
+//	No-arg constructor	
 	public Employee() {
 		super();
 	}
+	
+//	toString method	
 	@Override
 	public String toString() {
 		return "Employee [empid=" + empid + ", empname=" + empname + ", empemail=" + empemail + ", emppassword="
 				+ emppassword + "]";
 	}
+	
+//	Getter and Setter method	
 	public int getEmpid() {
 		return empid;
 	}

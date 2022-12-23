@@ -7,6 +7,8 @@ public class Complain {
 	private String status;
 	private int empid;
 	private int engid;
+	
+// paramaterized constructor
 	public Complain(int compid, String category, String status, int empid, int engid) {
 		super();
 		this.compid = compid;
@@ -15,14 +17,20 @@ public class Complain {
 		this.empid = empid;
 		this.engid = engid;
 	}
+	
+//	No-arg constructor
 	public Complain() {
 		super();
 	}
+	
+//	toString method
 	@Override
 	public String toString() {
 		return "Complain [compid=" + compid + ", category=" + category + ", status=" + status + ", empid=" + empid
 				+ ", engid=" + engid + "]";
 	}
+	
+//	Getter and Setter method
 	public int getCompid() {
 		return compid;
 	}
